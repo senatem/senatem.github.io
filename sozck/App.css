@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'testFont';
+    src: local('testFont'), url(./font/Roboto-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'openSans';
+    src: local('openSans'), url(./font/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'titleFont';
+    src: local('titleFont'), url(./font/OleoScript-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'guessFont';
+    src: local('guessFont'), url(./font/BreeSerif-Regular.ttf) format('truetype');
+}
+
+
+
+.titleStyle{
+    font-family: titleFont, sans-serif;
+    font-size: 140%;
+}
+
+.midBannerElement{
+    width: 100%;
+    height: 100%;
+    background-color: #EDEAEA;
+}
+
+.challengeButton{
+    padding: 0;
+    border: none;
+    box-shadow: inset 4px 4px 6px #FFFFFF29, 2px 2px 2px #00000029;
+    background: #ECEAEF 0% 0% no-repeat padding-box;
+    color: #110A01;
+    opacity: 1;
+    width:  100%;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: openSans, sans-serif;
+    font-size: 140%;
+}
+.challengeButton:hover{
+    box-shadow: inset 16px 16px 16px #AAAAAA29, 2px 2px 2px #00000029;
+}
+
+.challengeButton:active{
+    background-color: #D4D2D6;
+}
+
+.keyboardElement{
+    width: 100%;
+    height: 100%;
+    background-color: #EDEAEA;
+}
+
+.keyboardButton{
+    padding: 0;
+    border: none;
+    box-shadow: inset 4px 4px 6px #FFFFFF29, 2px 2px 2px #00000029;
+    background: #ECEAEF 0% 0% no-repeat padding-box;
+    color: #110A01;
+    opacity: 1;
+    margin: 10%;
+    width:  80%;
+    border-radius: 10px;
+    height: 80%;
+    font-family: openSans, sans-serif;
+    font-size: 120%;
+    box-sizing: border-box;
+}
+.keyboardButton:hover{
+    box-shadow: inset 16px 16px 16px #AAAAAA29, 2px 2px 2px #00000029;
+}
+
+.keyboardButton:active{
+    background-color: #D4D2D6;
+}
+
+
+.generic{
+    background-image: url("/icon/howto - Copy.png");
+
+}
