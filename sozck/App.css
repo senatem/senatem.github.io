@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: 'openSansBold';
+    src: local('openSansBold'), url(./font/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
     font-family: 'titleFont';
     src: local('titleFont'), url(./font/OleoScript-Bold.ttf) format('truetype');
 }
@@ -16,6 +21,11 @@
 @font-face {
     font-family: 'guessFont';
     src: local('guessFont'), url(./font/BreeSerif-Regular.ttf) format('truetype');
+}
+
+@keyframes popWarning {
+    0%   {opacity: 1;}
+    100% {opacity:0}
 }
 
 
