@@ -1,1 +1,1 @@
-# Taşındık! Bizi yeni sayfamızda bulabilirsiniz: https://pungocorp.github.io/sozck
+# Taşındık! Oyunumuzun yeni sayfası için [buraya tıklayın.](https://pungocorp.github.io/sozck)
